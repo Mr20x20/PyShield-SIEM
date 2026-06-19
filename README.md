@@ -46,6 +46,8 @@ EVENTS SUMMARY:
   • 5 failed login attempts detected.
   • Open ports found: [21, 23, 80]
 ==================================================
+<img width="572" height="287" alt="image" src="https://github.com/user-attachments/assets/5f85f928-2088-4aa2-a5e3-35f28ce23690" />
+
 
 ## 🚀 Getting Started & Execution
  1. **Generate Keys & Run FIM Agent:**
