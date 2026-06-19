@@ -8,7 +8,7 @@ A modular, file-driven **Security Information and Event Management (SIEM)** emul
 
 Instead of single-point detection, this system utilizes independent security tools acting as "agents/sensors" that dump telemetry into normalized JSON reports. The central SIEM core aggregates, scores, and correlates these inputs to generate a live dashboard.
 
-text
+
   [ Log Analyzer Agent ]     --->  log_analysis_report.json  ---\
   [ RSA FIM Monitor Agent ]  --->  fim_report.json           ----> [ Core SIEM Engine ] ---> Live Terminal Dashboard
   [ Multi-Threaded Scan ]    --->  port_scan_report.json     ---/
@@ -34,6 +34,7 @@ mini_siem/
 └── README.md                # Project Documentation
 
 ## 🖥️ Live SOC Dashboard Preview
+
 When running, the engine automatically clears the screen and refreshes every 5 seconds to show the current threat landscape:
 ==================================================
 🛡️  MINI SIEM DASHBOARD | 2026-06-19 14:01:41
